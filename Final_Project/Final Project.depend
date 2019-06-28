@@ -1,0 +1,3704 @@
+# depslib dependency file v1.0
+1558697486 source:c:\users\eric\desktop\final\allegro5exception.cpp
+	<stdexcept>
+	"Allegro5Exception.hpp"
+
+1558697580 c:\users\eric\desktop\final\allegro5exception.hpp
+	<stdexcept>
+	<string>
+
+1558792939 source:c:\users\eric\desktop\final\audiohelper.cpp
+	<allegro5/allegro_audio.h>
+	<memory>
+	"AudioHelper.hpp"
+	"LOG.hpp"
+	"Resources.hpp"
+
+1455021108 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1441867812 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1481448028 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1469587830 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1481457978 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alplatf.h
+
+1468648396 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1365765268 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1468648396 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1468648396 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1354133440 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1365765268 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1324132252 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alandroidcfg.h
+
+1354133440 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1365764594 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1266867720 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alunix.h
+
+1405826630 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1280958046 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1280958046 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1285022982 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\altime.h
+	"allegro5/base.h"
+
+1469883462 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1440756792 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\color.h
+	"allegro5/base.h"
+
+1354562834 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1442975818 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1419153622 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1337438994 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\path.h
+	"allegro5/base.h"
+
+1337115290 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\utf8.h
+	"allegro5/base.h"
+
+1418566016 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1459662376 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1441520420 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1469883462 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1455671392 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\events.h
+	"allegro5/altime.h"
+
+1351402158 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\config.h
+	"allegro5/file.h"
+
+1441867812 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\cpu.h
+	"allegro5/base.h"
+
+1351584190 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1354562834 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\drawing.h
+	"allegro5/color.h"
+
+1280958046 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\error.h
+	"allegro5/base.h"
+
+1280958046 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\fixed.h
+	"allegro5/base.h"
+
+1280958046 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1468648396 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1405964238 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1459662376 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1457149640 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1354562834 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1354562834 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1374838602 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\keycodes.h
+
+1422972732 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1456029388 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1459662376 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\memory.h
+	"allegro5/base.h"
+
+1459662376 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\monitor.h
+	"allegro5/base.h"
+
+1354562834 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1459662376 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\render_state.h
+	"allegro5/base.h"
+
+1462071882 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1427890064 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\transformations.h
+	"allegro5/display.h"
+
+1333094078 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1289033210 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\threads.h
+	"allegro5/altime.h"
+
+1459662376 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1440942196 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\tls.h
+	"allegro5/base.h"
+
+1459059856 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\alcompat.h
+
+1558703600 c:\users\eric\desktop\final\audiohelper.hpp
+	<allegro5/allegro_audio.h>
+	<string>
+
+1558705598 c:\users\eric\desktop\final\log.hpp
+	<fstream>
+	<iostream>
+
+1558705882 c:\users\eric\desktop\final\resources.hpp
+	<allegro5/bitmap.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<memory>
+	<unordered_map>
+	<string>
+
+1469883462 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1558697486 source:c:\users\eric\desktop\final\bullet.cpp
+	"Bullet.hpp"
+	"Collider.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Sprite.hpp"
+
+1558703712 c:\users\eric\desktop\final\bullet.hpp
+	<string>
+	"Sprite.hpp"
+
+1558705920 c:\users\eric\desktop\final\sprite.hpp
+	<allegro5/color.h>
+	<string>
+	"Image.hpp"
+	"Point.hpp"
+
+1558705384 c:\users\eric\desktop\final\image.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<string>
+	"IObject.hpp"
+
+1558697486 c:\users\eric\desktop\final\iobject.hpp
+	<list>
+	<utility>
+	"Point.hpp"
+
+1558697174 c:\users\eric\desktop\final\point.hpp
+
+1558703770 c:\users\eric\desktop\final\collider.hpp
+	<allegro5/bitmap.h>
+	<memory>
+
+1558703956 c:\users\eric\desktop\final\enemy.hpp
+	<list>
+	<vector>
+	<string>
+	"Point.hpp"
+	"Sprite.hpp"
+
+1558705292 c:\users\eric\desktop\final\gameengine.hpp
+	<allegro5/allegro.h>
+	<unordered_map>
+	<string>
+	"Point.hpp"
+
+1558697486 c:\users\eric\desktop\final\group.hpp
+	<list>
+	<utility>
+	"IControl.hpp"
+	"IObject.hpp"
+
+1558697486 c:\users\eric\desktop\final\icontrol.hpp
+	<list>
+	<utility>
+
+1558705436 c:\users\eric\desktop\final\iscene.hpp
+	"Group.hpp"
+
+1561170826 c:\users\eric\desktop\final\playscene.hpp
+	<list>
+	<utility>
+	<vector>
+	"IScene.hpp"
+	"Point.hpp"
+
+1558703804 source:c:\users\eric\desktop\final\collider.cpp
+	<allegro5/color.h>
+	<memory>
+	"Collider.hpp"
+	"Point.hpp"
+
+1558703878 source:c:\users\eric\desktop\final\dirtyeffect.cpp
+	<allegro5/base.h>
+	<allegro5/color.h>
+	<random>
+	"DirtyEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+
+1558697746 c:\users\eric\desktop\final\dirtyeffect.hpp
+	<string>
+	"Sprite.hpp"
+
+1561187568 source:c:\users\eric\desktop\final\enemy.cpp
+	<allegro5/allegro_primitives.h>
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+	<iostream>
+
+1393588066 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1558704060 c:\users\eric\desktop\final\explosioneffect.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1558706058 c:\users\eric\desktop\final\turret.hpp
+	<allegro5/base.h>
+	<list>
+	<string>
+	"Sprite.hpp"
+
+1558697796 source:c:\users\eric\desktop\final\explosioneffect.cpp
+	<cmath>
+	<string>
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Resources.hpp"
+
+1558707592 source:c:\users\eric\desktop\final\firebullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1558697486 c:\users\eric\desktop\final\firebullet.hpp
+	"Bullet.hpp"
+
+1558698078 source:c:\users\eric\desktop\final\gameengine.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_ttf.h>
+	<chrono>
+	<memory>
+	<stdexcept>
+	<string>
+	<utility>
+	"Allegro5Exception.hpp"
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"LOG.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1280958046 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
+
+1459662376 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro_image.h
+	"allegro5/base.h"
+
+1329890786 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1559550163 source:c:\users\eric\desktop\final\group.cpp
+	<stdexcept>
+	<utility>
+	"Group.hpp"
+	"IControl.hpp"
+	"IObject.hpp"
+	<cmath>
+	<fstream>
+	<functional>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"NewEnemy.hpp"
+	"NewTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+	<iostream>
+
+1558859453 c:\users\eric\desktop\final\startscene.hpp
+	"IScene.hpp"
+
+1558705490 c:\users\eric\desktop\final\label.hpp
+	<allegro5/allegro_font.h>
+	<allegro5/color.h>
+	<memory>
+	<string>
+	"IObject.hpp"
+
+1558706492 c:\users\eric\desktop\final\laserturret.hpp
+	"Turret.hpp"
+
+1559358675 c:\users\eric\desktop\final\newenemy.hpp
+	"Enemy.hpp"
+
+1559358074 c:\users\eric\desktop\final\newturret.hpp
+	"Turret.hpp"
+
+1558705658 c:\users\eric\desktop\final\machinegunturret.hpp
+	"Turret.hpp"
+
+1558705720 c:\users\eric\desktop\final\missileturret.hpp
+	"Turret.hpp"
+
+1558705752 c:\users\eric\desktop\final\plane.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1558117296 c:\users\eric\desktop\final\planeenemy.hpp
+	"Enemy.hpp"
+
+1558117440 c:\users\eric\desktop\final\soldierenemy.hpp
+	"Enemy.hpp"
+
+1558697486 c:\users\eric\desktop\final\tankenemy.hpp
+	"Enemy.hpp"
+	"Sprite.hpp"
+
+1558706106 c:\users\eric\desktop\final\turretbutton.hpp
+	<string>
+	"ImageButton.hpp"
+	"Sprite.hpp"
+
+1558705418 c:\users\eric\desktop\final\imagebutton.hpp
+	<allegro5/bitmap.h>
+	<functional>
+	<memory>
+	<string>
+	"IControl.hpp"
+	"Image.hpp"
+
+1558697174 source:c:\users\eric\desktop\final\icontrol.cpp
+	"IControl.hpp"
+
+1561141062 source:c:\users\eric\desktop\final\image.cpp
+	<allegro5/allegro.h>
+	<memory>
+	"IObject.hpp"
+	"Image.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1559488525 source:c:\users\eric\desktop\final\imagebutton.cpp
+	<functional>
+	<memory>
+	<iostream>
+	"Collider.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"ImageButton.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1558697394 source:c:\users\eric\desktop\final\iobject.cpp
+	"Point.hpp"
+	"IObject.hpp"
+
+1558698196 source:c:\users\eric\desktop\final\iscene.cpp
+	<allegro5/allegro.h>
+	"IScene.hpp"
+
+1558697486 source:c:\users\eric\desktop\final\label.cpp
+	<allegro5/allegro_font.h>
+	<memory>
+	"IObject.hpp"
+	"Label.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1558705510 source:c:\users\eric\desktop\final\laserbullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"Group.hpp"
+	"LaserBullet.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1558697486 c:\users\eric\desktop\final\laserbullet.hpp
+	"Bullet.hpp"
+
+1558705532 source:c:\users\eric\desktop\final\laserturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"LaserBullet.hpp"
+	"LaserTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1558697394 source:c:\users\eric\desktop\final\log.cpp
+	<iostream>
+	<fstream>
+	"LOG.hpp"
+
+1561139210 source:c:\users\eric\desktop\final\losescene.cpp
+	<functional>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"LoseScene.hpp"
+	"Point.hpp"
+
+1558705616 c:\users\eric\desktop\final\losescene.hpp
+	"IScene.hpp"
+
+1559356729 source:c:\users\eric\desktop\final\machinegunturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"MachineGunTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1558698306 source:c:\users\eric\desktop\final\missilebullet.cpp
+	<cmath>
+	<random>
+	<string>
+	<utility>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"MissileBullet.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1558705684 c:\users\eric\desktop\final\missilebullet.hpp
+	<allegro5/base.h>
+	<list>
+	"Bullet.hpp"
+
+1559646406 source:c:\users\eric\desktop\final\missileturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"MissileBullet.hpp"
+	"MissileTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1559358754 source:c:\users\eric\desktop\final\newenemy.cpp
+	<string>
+	"NewEnemy.hpp"
+
+1559646404 source:c:\users\eric\desktop\final\newturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"NewTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1558705784 source:c:\users\eric\desktop\final\plane.cpp
+	<allegro5/allegro.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Collider.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"Plane.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1558834857 source:c:\users\eric\desktop\final\planeenemy.cpp
+	<string>
+	"PlaneEnemy.hpp"
+
+1561187768 source:c:\users\eric\desktop\final\playscene.cpp
+	<allegro5/allegro.h>
+	<cmath>
+	<fstream>
+	<functional>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"NewEnemy.hpp"
+	"NewTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+	"iostream"
+
+1558697394 source:c:\users\eric\desktop\final\point.cpp
+	<cmath>
+	"Point.hpp"
+
+1558698430 source:c:\users\eric\desktop\final\resources.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<list>
+	<string>
+	<utility>
+	"Allegro5Exception.hpp"
+	"LOG.hpp"
+	"Resources.hpp"
+
+1559621495 source:c:\users\eric\desktop\final\slider.cpp
+	<algorithm>
+	<string>
+	"ImageButton.hpp"
+	"Point.hpp"
+	"Slider.hpp"
+	"Collider.hpp"
+	"Resources.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"iostream"
+
+1559378239 c:\users\eric\desktop\final\slider.hpp
+	<functional>
+	"Image.hpp"
+	"ImageButton.hpp"
+
+1561181432 source:c:\users\eric\desktop\final\soldierenemy.cpp
+	<string>
+	"SoldierEnemy.hpp"
+
+1561187809 source:c:\users\eric\desktop\final\sprite.cpp
+	<allegro5/allegro.h>
+	<memory>
+	"Image.hpp"
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561142641 source:c:\users\eric\desktop\final\stageselectscene.cpp
+	<allegro5/allegro_audio.h>
+	<functional>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+	"Slider.hpp"
+	"StageSelectScene.hpp"
+
+1558705952 c:\users\eric\desktop\final\stageselectscene.hpp
+	<allegro5/allegro_audio.h>
+	"IScene.hpp"
+
+1561176816 source:c:\users\eric\desktop\final\tankenemy.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"Point.hpp"
+	"TankEnemy.hpp"
+
+1558706098 source:c:\users\eric\desktop\final\turret.cpp
+	<allegro5/color.h>
+	<allegro5/allegro_primitives.h>
+	<cmath>
+	<utility>
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Turret.hpp"
+
+1558698576 source:c:\users\eric\desktop\final\turretbutton.cpp
+	<allegro5/color.h>
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"TurretButton.hpp"
+
+1559373171 source:c:\users\eric\desktop\final\winscene.cpp
+	"WinScene.hpp"
+	"Label.hpp"
+	"AudioHelper.hpp"
+	"PlayScene.hpp"
+
+1559373340 c:\users\eric\desktop\final\winscene.hpp
+	"IScene.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+
+1561136358 source:c:\users\eric\desktop\final\main.cpp
+	"GameEngine.hpp"
+	"LOG.hpp"
+	"LoseScene.hpp"
+	"PlayScene.hpp"
+	"StageSelectScene.hpp"
+	"WinScene.hpp"
+	"Startscene.hpp"
+
+1561141932 source:c:\users\eric\desktop\final\startscene.cpp
+	<functional>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"StartScene.hpp"
+	"Group.hpp"
+	"Point.hpp"
+	"Image.hpp"
+
+1561167469 source:c:\users\eric\desktop\final\tankenemyreserved.cpp
+	<random>
+	<string>
+	"Point.hpp"
+	"TankEnemy.hpp"
+
+1561182383 source:c:\users\eric\desktop\final\playcscenereserved.c
+	<cmath>
+	<fstream>
+	<functional>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"NewEnemy.hpp"
+	"NewTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+
+1561182373 source:c:\users\eric\desktop\final\enemyreserved.c
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+
+1561175638 source:c:\users\eric\desktop\final\army.cpp
+
+1561135532 source:d:\nthu\final_project_2\final\allegro5exception.cpp
+	<stdexcept>
+	"Allegro5Exception.hpp"
+
+1561135534 d:\nthu\final_project_2\final\allegro5exception.hpp
+	<stdexcept>
+	<string>
+
+1561135536 source:d:\nthu\final_project_2\final\audiohelper.cpp
+	<allegro5/allegro_audio.h>
+	<memory>
+	"AudioHelper.hpp"
+	"LOG.hpp"
+	"Resources.hpp"
+
+1561135538 d:\nthu\final_project_2\final\audiohelper.hpp
+	<allegro5/allegro_audio.h>
+	<string>
+
+1561135606 d:\nthu\final_project_2\final\log.hpp
+	<fstream>
+	<iostream>
+
+1561135668 d:\nthu\final_project_2\final\resources.hpp
+	<allegro5/bitmap.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<memory>
+	<unordered_map>
+	<string>
+
+1561135540 source:d:\nthu\final_project_2\final\bullet.cpp
+	"Bullet.hpp"
+	"Collider.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561135542 d:\nthu\final_project_2\final\bullet.hpp
+	<string>
+	"Sprite.hpp"
+
+1561135678 d:\nthu\final_project_2\final\sprite.hpp
+	<allegro5/color.h>
+	<string>
+	"Image.hpp"
+	"Point.hpp"
+
+1561135582 d:\nthu\final_project_2\final\image.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<string>
+	"IObject.hpp"
+
+1561135588 d:\nthu\final_project_2\final\iobject.hpp
+	<list>
+	<utility>
+	"Point.hpp"
+
+1561135664 d:\nthu\final_project_2\final\point.hpp
+
+1561135546 d:\nthu\final_project_2\final\collider.hpp
+	<allegro5/bitmap.h>
+	<memory>
+
+1561135552 d:\nthu\final_project_2\final\enemy.hpp
+	<list>
+	<vector>
+	<string>
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561135572 d:\nthu\final_project_2\final\gameengine.hpp
+	<allegro5/allegro.h>
+	<unordered_map>
+	<string>
+	"Point.hpp"
+
+1561135576 d:\nthu\final_project_2\final\group.hpp
+	<list>
+	<utility>
+	"IControl.hpp"
+	"IObject.hpp"
+
+1561135578 d:\nthu\final_project_2\final\icontrol.hpp
+	<list>
+	<utility>
+
+1561135592 d:\nthu\final_project_2\final\iscene.hpp
+	"Group.hpp"
+
+1561135662 d:\nthu\final_project_2\final\playscene.hpp
+	<list>
+	<utility>
+	<vector>
+	"IScene.hpp"
+	"Point.hpp"
+
+1561135544 source:d:\nthu\final_project_2\final\collider.cpp
+	<allegro5/color.h>
+	<memory>
+	"Collider.hpp"
+	"Point.hpp"
+
+1561135546 source:d:\nthu\final_project_2\final\dirtyeffect.cpp
+	<allegro5/base.h>
+	<allegro5/color.h>
+	<random>
+	"DirtyEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+
+1561135548 d:\nthu\final_project_2\final\dirtyeffect.hpp
+	<string>
+	"Sprite.hpp"
+
+1561135550 source:d:\nthu\final_project_2\final\enemy.cpp
+	<allegro5/allegro_primitives.h>
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+	<iostream>
+
+1561135558 d:\nthu\final_project_2\final\explosioneffect.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1561135700 d:\nthu\final_project_2\final\turret.hpp
+	<allegro5/base.h>
+	<list>
+	<string>
+	"Sprite.hpp"
+
+1561135554 source:d:\nthu\final_project_2\final\enemyreserved.c
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+
+1561135556 source:d:\nthu\final_project_2\final\explosioneffect.cpp
+	<cmath>
+	<string>
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Resources.hpp"
+
+1561135566 source:d:\nthu\final_project_2\final\firebullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135568 d:\nthu\final_project_2\final\firebullet.hpp
+	"Bullet.hpp"
+
+1561135570 source:d:\nthu\final_project_2\final\gameengine.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_ttf.h>
+	<chrono>
+	<memory>
+	<stdexcept>
+	<string>
+	<utility>
+	"Allegro5Exception.hpp"
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"LOG.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561135574 source:d:\nthu\final_project_2\final\group.cpp
+	<stdexcept>
+	<utility>
+	"Group.hpp"
+	"IControl.hpp"
+	"IObject.hpp"
+	<cmath>
+	<fstream>
+	<functional>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"NewEnemy.hpp"
+	"NewTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+	<iostream>
+
+1561135684 d:\nthu\final_project_2\final\startscene.hpp
+	"IScene.hpp"
+
+1561135596 d:\nthu\final_project_2\final\label.hpp
+	<allegro5/allegro_font.h>
+	<allegro5/color.h>
+	<memory>
+	<string>
+	"IObject.hpp"
+
+1561135602 d:\nthu\final_project_2\final\laserturret.hpp
+	"Turret.hpp"
+
+1561135646 d:\nthu\final_project_2\final\newenemy.hpp
+	"Enemy.hpp"
+
+1561135650 d:\nthu\final_project_2\final\newturret.hpp
+	"Turret.hpp"
+
+1561135614 d:\nthu\final_project_2\final\machinegunturret.hpp
+	"Turret.hpp"
+
+1561135642 d:\nthu\final_project_2\final\missileturret.hpp
+	"Turret.hpp"
+
+1561135652 d:\nthu\final_project_2\final\plane.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1561135656 d:\nthu\final_project_2\final\planeenemy.hpp
+	"Enemy.hpp"
+
+1561135674 d:\nthu\final_project_2\final\soldierenemy.hpp
+	"Enemy.hpp"
+
+1561135688 d:\nthu\final_project_2\final\tankenemy.hpp
+	"Enemy.hpp"
+	"Sprite.hpp"
+
+1561135702 d:\nthu\final_project_2\final\turretbutton.hpp
+	<string>
+	"ImageButton.hpp"
+	"Sprite.hpp"
+
+1561135586 d:\nthu\final_project_2\final\imagebutton.hpp
+	<allegro5/bitmap.h>
+	<functional>
+	<memory>
+	<string>
+	"IControl.hpp"
+	"Image.hpp"
+
+1561135578 source:d:\nthu\final_project_2\final\icontrol.cpp
+	"IControl.hpp"
+
+1561135580 source:d:\nthu\final_project_2\final\image.cpp
+	<allegro5/allegro.h>
+	<memory>
+	"IObject.hpp"
+	"Image.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561135584 source:d:\nthu\final_project_2\final\imagebutton.cpp
+	<functional>
+	<memory>
+	<iostream>
+	"Collider.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"ImageButton.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561135586 source:d:\nthu\final_project_2\final\iobject.cpp
+	"Point.hpp"
+	"IObject.hpp"
+
+1561135590 source:d:\nthu\final_project_2\final\iscene.cpp
+	<allegro5/allegro.h>
+	"IScene.hpp"
+
+1561135594 source:d:\nthu\final_project_2\final\label.cpp
+	<allegro5/allegro_font.h>
+	<memory>
+	"IObject.hpp"
+	"Label.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561135598 source:d:\nthu\final_project_2\final\laserbullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"Group.hpp"
+	"LaserBullet.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135598 d:\nthu\final_project_2\final\laserbullet.hpp
+	"Bullet.hpp"
+
+1561135600 source:d:\nthu\final_project_2\final\laserturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"LaserBullet.hpp"
+	"LaserTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135604 source:d:\nthu\final_project_2\final\log.cpp
+	<iostream>
+	<fstream>
+	"LOG.hpp"
+
+1561135610 source:d:\nthu\final_project_2\final\losescene.cpp
+	<functional>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"LoseScene.hpp"
+	"Point.hpp"
+
+1561135612 d:\nthu\final_project_2\final\losescene.hpp
+	"IScene.hpp"
+
+1561135614 source:d:\nthu\final_project_2\final\machinegunturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"MachineGunTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135616 source:d:\nthu\final_project_2\final\main.cpp
+	"GameEngine.hpp"
+	"LOG.hpp"
+	"LoseScene.hpp"
+	"PlayScene.hpp"
+	"StageSelectScene.hpp"
+	"WinScene.hpp"
+	"Startscene.hpp"
+
+1561135682 d:\nthu\final_project_2\final\stageselectscene.hpp
+	<allegro5/allegro_audio.h>
+	"IScene.hpp"
+
+1561135706 d:\nthu\final_project_2\final\winscene.hpp
+	"IScene.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+
+1561135638 source:d:\nthu\final_project_2\final\missilebullet.cpp
+	<cmath>
+	<random>
+	<string>
+	<utility>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"MissileBullet.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135640 d:\nthu\final_project_2\final\missilebullet.hpp
+	<allegro5/base.h>
+	<list>
+	"Bullet.hpp"
+
+1561135642 source:d:\nthu\final_project_2\final\missileturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"MissileBullet.hpp"
+	"MissileTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135644 source:d:\nthu\final_project_2\final\newenemy.cpp
+	<string>
+	"NewEnemy.hpp"
+
+1561135648 source:d:\nthu\final_project_2\final\newturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"NewTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135652 source:d:\nthu\final_project_2\final\plane.cpp
+	<allegro5/allegro.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Collider.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"Plane.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561135654 source:d:\nthu\final_project_2\final\planeenemy.cpp
+	<string>
+	"PlaneEnemy.hpp"
+
+1561135658 source:d:\nthu\final_project_2\final\playcscenereserved.c
+	<cmath>
+	<fstream>
+	<functional>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"NewEnemy.hpp"
+	"NewTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+
+1561135660 source:d:\nthu\final_project_2\final\playscene.cpp
+	<allegro5/allegro.h>
+	<cmath>
+	<fstream>
+	<functional>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"NewEnemy.hpp"
+	"NewTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+	"iostream"
+
+1561135664 source:d:\nthu\final_project_2\final\point.cpp
+	<cmath>
+	"Point.hpp"
+
+1561135666 source:d:\nthu\final_project_2\final\resources.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<list>
+	<string>
+	<utility>
+	"Allegro5Exception.hpp"
+	"LOG.hpp"
+	"Resources.hpp"
+
+1561135670 source:d:\nthu\final_project_2\final\slider.cpp
+	<algorithm>
+	<string>
+	"ImageButton.hpp"
+	"Point.hpp"
+	"Slider.hpp"
+	"Collider.hpp"
+	"Resources.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"iostream"
+
+1561135672 d:\nthu\final_project_2\final\slider.hpp
+	<functional>
+	"Image.hpp"
+	"ImageButton.hpp"
+
+1561135674 source:d:\nthu\final_project_2\final\soldierenemy.cpp
+	<string>
+	"SoldierEnemy.hpp"
+
+1561135676 source:d:\nthu\final_project_2\final\sprite.cpp
+	<allegro5/allegro.h>
+	<memory>
+	"Image.hpp"
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561135680 source:d:\nthu\final_project_2\final\stageselectscene.cpp
+	<allegro5/allegro_audio.h>
+	<functional>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+	"Slider.hpp"
+	"StageSelectScene.hpp"
+
+1561135684 source:d:\nthu\final_project_2\final\startscene.cpp
+	<functional>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"StartScene.hpp"
+	"Group.hpp"
+	"Point.hpp"
+	"Image.hpp"
+
+1561135686 source:d:\nthu\final_project_2\final\tankenemy.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"Point.hpp"
+	"TankEnemy.hpp"
+
+1561135690 source:d:\nthu\final_project_2\final\tankenemyreserved.cpp
+	<random>
+	<string>
+	"Point.hpp"
+	"TankEnemy.hpp"
+
+1561135698 source:d:\nthu\final_project_2\final\turret.cpp
+	<allegro5/color.h>
+	<allegro5/allegro_primitives.h>
+	<cmath>
+	<utility>
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Turret.hpp"
+
+1561135700 source:d:\nthu\final_project_2\final\turretbutton.cpp
+	<allegro5/color.h>
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"TurretButton.hpp"
+
+1561135704 source:d:\nthu\final_project_2\final\winscene.cpp
+	"WinScene.hpp"
+	"Label.hpp"
+	"AudioHelper.hpp"
+	"PlayScene.hpp"
+
+1561135532 source:c:\users\eric\desktop\final ver2\allegro5exception.cpp
+	<stdexcept>
+	"Allegro5Exception.hpp"
+
+1561135534 c:\users\eric\desktop\final ver2\allegro5exception.hpp
+	<stdexcept>
+	<string>
+
+1561135536 source:c:\users\eric\desktop\final ver2\audiohelper.cpp
+	<allegro5/allegro_audio.h>
+	<memory>
+	"AudioHelper.hpp"
+	"LOG.hpp"
+	"Resources.hpp"
+
+1561135538 c:\users\eric\desktop\final ver2\audiohelper.hpp
+	<allegro5/allegro_audio.h>
+	<string>
+
+1561135606 c:\users\eric\desktop\final ver2\log.hpp
+	<fstream>
+	<iostream>
+
+1561135668 c:\users\eric\desktop\final ver2\resources.hpp
+	<allegro5/bitmap.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<memory>
+	<unordered_map>
+	<string>
+
+1561135540 source:c:\users\eric\desktop\final ver2\bullet.cpp
+	"Bullet.hpp"
+	"Collider.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561135542 c:\users\eric\desktop\final ver2\bullet.hpp
+	<string>
+	"Sprite.hpp"
+
+1561135678 c:\users\eric\desktop\final ver2\sprite.hpp
+	<allegro5/color.h>
+	<string>
+	"Image.hpp"
+	"Point.hpp"
+
+1561135582 c:\users\eric\desktop\final ver2\image.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<string>
+	"IObject.hpp"
+
+1561135588 c:\users\eric\desktop\final ver2\iobject.hpp
+	<list>
+	<utility>
+	"Point.hpp"
+
+1561135664 c:\users\eric\desktop\final ver2\point.hpp
+
+1561135546 c:\users\eric\desktop\final ver2\collider.hpp
+	<allegro5/bitmap.h>
+	<memory>
+
+1561206614 c:\users\eric\desktop\final ver2\enemy.hpp
+	<list>
+	<vector>
+	<string>
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561135572 c:\users\eric\desktop\final ver2\gameengine.hpp
+	<allegro5/allegro.h>
+	<unordered_map>
+	<string>
+	"Point.hpp"
+
+1561135576 c:\users\eric\desktop\final ver2\group.hpp
+	<list>
+	<utility>
+	"IControl.hpp"
+	"IObject.hpp"
+
+1561135578 c:\users\eric\desktop\final ver2\icontrol.hpp
+	<list>
+	<utility>
+
+1561135592 c:\users\eric\desktop\final ver2\iscene.hpp
+	"Group.hpp"
+
+1561234818 c:\users\eric\desktop\final ver2\playscene.hpp
+	<list>
+	<utility>
+	<vector>
+	"IScene.hpp"
+	"Point.hpp"
+
+1561135544 source:c:\users\eric\desktop\final ver2\collider.cpp
+	<allegro5/color.h>
+	<memory>
+	"Collider.hpp"
+	"Point.hpp"
+
+1561135546 source:c:\users\eric\desktop\final ver2\dirtyeffect.cpp
+	<allegro5/base.h>
+	<allegro5/color.h>
+	<random>
+	"DirtyEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+
+1561135548 c:\users\eric\desktop\final ver2\dirtyeffect.hpp
+	<string>
+	"Sprite.hpp"
+
+1561135554 source:c:\users\eric\desktop\final ver2\enemyreserved.c
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+
+1561135558 c:\users\eric\desktop\final ver2\explosioneffect.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1561135700 c:\users\eric\desktop\final ver2\turret.hpp
+	<allegro5/base.h>
+	<list>
+	<string>
+	"Sprite.hpp"
+
+1561135556 source:c:\users\eric\desktop\final ver2\explosioneffect.cpp
+	<cmath>
+	<string>
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Resources.hpp"
+
+1561135566 source:c:\users\eric\desktop\final ver2\firebullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135568 c:\users\eric\desktop\final ver2\firebullet.hpp
+	"Bullet.hpp"
+
+1561135570 source:c:\users\eric\desktop\final ver2\gameengine.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_ttf.h>
+	<chrono>
+	<memory>
+	<stdexcept>
+	<string>
+	<utility>
+	"Allegro5Exception.hpp"
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"LOG.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561135574 source:c:\users\eric\desktop\final ver2\group.cpp
+	<stdexcept>
+	<utility>
+	"Group.hpp"
+	"IControl.hpp"
+	"IObject.hpp"
+	<cmath>
+	<fstream>
+	<functional>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"NewEnemy.hpp"
+	"NewTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+	<iostream>
+
+1561135684 c:\users\eric\desktop\final ver2\startscene.hpp
+	"IScene.hpp"
+
+1561135596 c:\users\eric\desktop\final ver2\label.hpp
+	<allegro5/allegro_font.h>
+	<allegro5/color.h>
+	<memory>
+	<string>
+	"IObject.hpp"
+
+1561135602 c:\users\eric\desktop\final ver2\laserturret.hpp
+	"Turret.hpp"
+
+1561135646 c:\users\eric\desktop\final ver2\newenemy.hpp
+	"Enemy.hpp"
+
+1561135650 c:\users\eric\desktop\final ver2\newturret.hpp
+	"Turret.hpp"
+
+1561135614 c:\users\eric\desktop\final ver2\machinegunturret.hpp
+	"Turret.hpp"
+
+1561135642 c:\users\eric\desktop\final ver2\missileturret.hpp
+	"Turret.hpp"
+
+1561135652 c:\users\eric\desktop\final ver2\plane.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1561135656 c:\users\eric\desktop\final ver2\planeenemy.hpp
+	"Enemy.hpp"
+
+1561135674 c:\users\eric\desktop\final ver2\soldierenemy.hpp
+	"Enemy.hpp"
+
+1561135688 c:\users\eric\desktop\final ver2\tankenemy.hpp
+	"Enemy.hpp"
+	"Sprite.hpp"
+
+1561135702 c:\users\eric\desktop\final ver2\turretbutton.hpp
+	<string>
+	"ImageButton.hpp"
+	"Sprite.hpp"
+
+1561135586 c:\users\eric\desktop\final ver2\imagebutton.hpp
+	<allegro5/bitmap.h>
+	<functional>
+	<memory>
+	<string>
+	"IControl.hpp"
+	"Image.hpp"
+
+1561135578 source:c:\users\eric\desktop\final ver2\icontrol.cpp
+	"IControl.hpp"
+
+1561135580 source:c:\users\eric\desktop\final ver2\image.cpp
+	<allegro5/allegro.h>
+	<memory>
+	"IObject.hpp"
+	"Image.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561135584 source:c:\users\eric\desktop\final ver2\imagebutton.cpp
+	<functional>
+	<memory>
+	<iostream>
+	"Collider.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"ImageButton.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561135586 source:c:\users\eric\desktop\final ver2\iobject.cpp
+	"Point.hpp"
+	"IObject.hpp"
+
+1561135590 source:c:\users\eric\desktop\final ver2\iscene.cpp
+	<allegro5/allegro.h>
+	"IScene.hpp"
+
+1561135594 source:c:\users\eric\desktop\final ver2\label.cpp
+	<allegro5/allegro_font.h>
+	<memory>
+	"IObject.hpp"
+	"Label.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561135598 source:c:\users\eric\desktop\final ver2\laserbullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"Group.hpp"
+	"LaserBullet.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135598 c:\users\eric\desktop\final ver2\laserbullet.hpp
+	"Bullet.hpp"
+
+1561135600 source:c:\users\eric\desktop\final ver2\laserturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"LaserBullet.hpp"
+	"LaserTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135604 source:c:\users\eric\desktop\final ver2\log.cpp
+	<iostream>
+	<fstream>
+	"LOG.hpp"
+
+1561135610 source:c:\users\eric\desktop\final ver2\losescene.cpp
+	<functional>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"LoseScene.hpp"
+	"Point.hpp"
+
+1561135612 c:\users\eric\desktop\final ver2\losescene.hpp
+	"IScene.hpp"
+
+1561135614 source:c:\users\eric\desktop\final ver2\machinegunturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"MachineGunTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135638 source:c:\users\eric\desktop\final ver2\missilebullet.cpp
+	<cmath>
+	<random>
+	<string>
+	<utility>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"MissileBullet.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135640 c:\users\eric\desktop\final ver2\missilebullet.hpp
+	<allegro5/base.h>
+	<list>
+	"Bullet.hpp"
+
+1561135642 source:c:\users\eric\desktop\final ver2\missileturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"MissileBullet.hpp"
+	"MissileTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135644 source:c:\users\eric\desktop\final ver2\newenemy.cpp
+	<string>
+	"NewEnemy.hpp"
+
+1561135648 source:c:\users\eric\desktop\final ver2\newturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"NewTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561135652 source:c:\users\eric\desktop\final ver2\plane.cpp
+	<allegro5/allegro.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Collider.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"Plane.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561135654 source:c:\users\eric\desktop\final ver2\planeenemy.cpp
+	<string>
+	"PlaneEnemy.hpp"
+
+1561135658 source:c:\users\eric\desktop\final ver2\playcscenereserved.c
+	<cmath>
+	<fstream>
+	<functional>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"NewEnemy.hpp"
+	"NewTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+
+1561135664 source:c:\users\eric\desktop\final ver2\point.cpp
+	<cmath>
+	"Point.hpp"
+
+1561135670 source:c:\users\eric\desktop\final ver2\slider.cpp
+	<algorithm>
+	<string>
+	"ImageButton.hpp"
+	"Point.hpp"
+	"Slider.hpp"
+	"Collider.hpp"
+	"Resources.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"iostream"
+
+1561135672 c:\users\eric\desktop\final ver2\slider.hpp
+	<functional>
+	"Image.hpp"
+	"ImageButton.hpp"
+
+1561135674 source:c:\users\eric\desktop\final ver2\soldierenemy.cpp
+	<string>
+	"SoldierEnemy.hpp"
+
+1561135676 source:c:\users\eric\desktop\final ver2\sprite.cpp
+	<allegro5/allegro.h>
+	<memory>
+	"Image.hpp"
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561135686 source:c:\users\eric\desktop\final ver2\tankenemy.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"Point.hpp"
+	"TankEnemy.hpp"
+
+1561135690 source:c:\users\eric\desktop\final ver2\tankenemyreserved.cpp
+	<random>
+	<string>
+	"Point.hpp"
+	"TankEnemy.hpp"
+
+1561135698 source:c:\users\eric\desktop\final ver2\turret.cpp
+	<allegro5/color.h>
+	<allegro5/allegro_primitives.h>
+	<cmath>
+	<utility>
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Turret.hpp"
+
+1561135700 source:c:\users\eric\desktop\final ver2\turretbutton.cpp
+	<allegro5/color.h>
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"TurretButton.hpp"
+
+1561135704 source:c:\users\eric\desktop\final ver2\winscene.cpp
+	"WinScene.hpp"
+	"Label.hpp"
+	"AudioHelper.hpp"
+	"PlayScene.hpp"
+
+1561135706 c:\users\eric\desktop\final ver2\winscene.hpp
+	"IScene.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+
+1561214217 source:c:\users\eric\desktop\final ver2\enemy.cpp
+	<allegro5/allegro_primitives.h>
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+
+1561201364 source:c:\users\eric\desktop\final ver2\main.cpp
+	"GameEngine.hpp"
+	"LOG.hpp"
+	"LoseScene.hpp"
+	"PlayScene.hpp"
+	"StageSelectScene.hpp"
+	"WinScene.hpp"
+	"Startscene.hpp"
+
+1561135682 c:\users\eric\desktop\final ver2\stageselectscene.hpp
+	<allegro5/allegro_audio.h>
+	"IScene.hpp"
+
+1561202805 source:c:\users\eric\desktop\final ver2\resources.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<list>
+	<string>
+	<utility>
+	"Allegro5Exception.hpp"
+	"LOG.hpp"
+	"Resources.hpp"
+
+1561202580 source:c:\users\eric\desktop\final ver2\stageselectscene.cpp
+	<allegro5/allegro_audio.h>
+	<functional>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+	"Slider.hpp"
+	"StageSelectScene.hpp"
+
+1561202561 source:c:\users\eric\desktop\final ver2\startscene.cpp
+	<functional>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"StartScene.hpp"
+	"Group.hpp"
+	"Point.hpp"
+	"Image.hpp"
+
+1561235090 source:c:\users\eric\desktop\final ver2\playscene.cpp
+	<allegro5/allegro.h>
+	<cmath>
+	<fstream>
+	<functional>
+	<iostream>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	<algorithm>
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"NewEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+	"NewTurret.hpp"
+	"Army.h"
+	"Army1.h"
+	"ArmyButton.h"
+	"LaserBullet.hpp"
+
+1561232230 source:c:\users\eric\desktop\final ver2\army.cpp
+	<allegro5/allegro_primitives.h>
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Army.h"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+
+1561230436 c:\users\eric\desktop\final ver2\army.h
+	<list>
+	<vector>
+	<string>
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561234034 source:c:\users\eric\desktop\final ver2\army1.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"Point.hpp"
+	"Army1.h"
+	"PlayScene.hpp"
+
+1561228679 c:\users\eric\desktop\final ver2\army1.h
+	"Turret.hpp"
+	"Army.h"
+	"Sprite.hpp"
+
+1561229712 source:c:\users\eric\desktop\final ver2\armybutton.cpp
+	<allegro5/color.h>
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"ArmyButton.h"
+
+1561229038 c:\users\eric\desktop\final ver2\armybutton.h
+	<string>
+	"ImageButton.hpp"
+	"Sprite.hpp"
+
+1561209426 source:c:\users\eric\desktop\final ver3\final ver3\allegro5exception.cpp
+	<stdexcept>
+	"Allegro5Exception.hpp"
+
+1561209426 c:\users\eric\desktop\final ver3\final ver3\allegro5exception.hpp
+	<stdexcept>
+	<string>
+
+1561209426 source:c:\users\eric\desktop\final ver3\final ver3\army.cpp
+	<allegro5/allegro_primitives.h>
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Army.h"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+
+1561209428 c:\users\eric\desktop\final ver3\final ver3\audiohelper.hpp
+	<allegro5/allegro_audio.h>
+	<string>
+
+1561209430 c:\users\eric\desktop\final ver3\final ver3\bullet.hpp
+	<string>
+	"Sprite.hpp"
+
+1561209450 c:\users\eric\desktop\final ver3\final ver3\sprite.hpp
+	<allegro5/color.h>
+	<string>
+	"Image.hpp"
+	"Point.hpp"
+
+1561209436 c:\users\eric\desktop\final ver3\final ver3\image.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<string>
+	"IObject.hpp"
+
+1561209438 c:\users\eric\desktop\final ver3\final ver3\iobject.hpp
+	<list>
+	<utility>
+	"Point.hpp"
+
+1561209448 c:\users\eric\desktop\final ver3\final ver3\point.hpp
+
+1561209432 c:\users\eric\desktop\final ver3\final ver3\dirtyeffect.hpp
+	<string>
+	"Sprite.hpp"
+
+1561209426 c:\users\eric\desktop\final ver3\final ver3\army.h
+	<list>
+	<vector>
+	<string>
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561209432 c:\users\eric\desktop\final ver3\final ver3\explosioneffect.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1561209436 c:\users\eric\desktop\final ver3\final ver3\gameengine.hpp
+	<allegro5/allegro.h>
+	<unordered_map>
+	<string>
+	"Point.hpp"
+
+1561209436 c:\users\eric\desktop\final ver3\final ver3\group.hpp
+	<list>
+	<utility>
+	"IControl.hpp"
+	"IObject.hpp"
+
+1561209436 c:\users\eric\desktop\final ver3\final ver3\icontrol.hpp
+	<list>
+	<utility>
+
+1561209438 c:\users\eric\desktop\final ver3\final ver3\iscene.hpp
+	"Group.hpp"
+
+1561281517 c:\users\eric\desktop\final ver3\final ver3\playscene.hpp
+	<list>
+	<utility>
+	<vector>
+	"IScene.hpp"
+	"Point.hpp"
+
+1561209454 c:\users\eric\desktop\final ver3\final ver3\turret.hpp
+	<allegro5/base.h>
+	<list>
+	<string>
+	"Sprite.hpp"
+
+1561209426 source:c:\users\eric\desktop\final ver3\final ver3\army1.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"Point.hpp"
+	"Army1.h"
+	"PlayScene.hpp"
+
+1561209426 c:\users\eric\desktop\final ver3\final ver3\army1.h
+	"Turret.hpp"
+	"Army.h"
+	"Sprite.hpp"
+
+1561209426 source:c:\users\eric\desktop\final ver3\final ver3\armybutton.cpp
+	<allegro5/color.h>
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"ArmyButton.h"
+
+1561209426 c:\users\eric\desktop\final ver3\final ver3\armybutton.h
+	<string>
+	"ImageButton.hpp"
+	"Sprite.hpp"
+
+1561209438 c:\users\eric\desktop\final ver3\final ver3\imagebutton.hpp
+	<allegro5/bitmap.h>
+	<functional>
+	<memory>
+	<string>
+	"IControl.hpp"
+	"Image.hpp"
+
+1561209430 source:c:\users\eric\desktop\final ver3\final ver3\audiohelper.cpp
+	<allegro5/allegro_audio.h>
+	<memory>
+	"AudioHelper.hpp"
+	"LOG.hpp"
+	"Resources.hpp"
+
+1561209440 c:\users\eric\desktop\final ver3\final ver3\log.hpp
+	<fstream>
+	<iostream>
+
+1561209448 c:\users\eric\desktop\final ver3\final ver3\resources.hpp
+	<allegro5/bitmap.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<memory>
+	<unordered_map>
+	<string>
+
+1561209430 source:c:\users\eric\desktop\final ver3\final ver3\bullet.cpp
+	"Bullet.hpp"
+	"Collider.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561209430 c:\users\eric\desktop\final ver3\final ver3\collider.hpp
+	<allegro5/bitmap.h>
+	<memory>
+
+1561209432 c:\users\eric\desktop\final ver3\final ver3\enemy.hpp
+	<list>
+	<vector>
+	<string>
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561209430 source:c:\users\eric\desktop\final ver3\final ver3\collider.cpp
+	<allegro5/color.h>
+	<memory>
+	"Collider.hpp"
+	"Point.hpp"
+
+1561209430 source:c:\users\eric\desktop\final ver3\final ver3\dirtyeffect.cpp
+	<allegro5/base.h>
+	<allegro5/color.h>
+	<random>
+	"DirtyEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+
+1561209432 source:c:\users\eric\desktop\final ver3\final ver3\enemy.cpp
+	<allegro5/allegro_primitives.h>
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+
+1561209432 source:c:\users\eric\desktop\final ver3\final ver3\enemyreserved.c
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+
+1561209432 source:c:\users\eric\desktop\final ver3\final ver3\explosioneffect.cpp
+	<cmath>
+	<string>
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Resources.hpp"
+
+1561209434 source:c:\users\eric\desktop\final ver3\final ver3\firebullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561209434 c:\users\eric\desktop\final ver3\final ver3\firebullet.hpp
+	"Bullet.hpp"
+
+1561209436 source:c:\users\eric\desktop\final ver3\final ver3\gameengine.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_ttf.h>
+	<chrono>
+	<memory>
+	<stdexcept>
+	<string>
+	<utility>
+	"Allegro5Exception.hpp"
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"LOG.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561209436 source:c:\users\eric\desktop\final ver3\final ver3\group.cpp
+	<stdexcept>
+	<utility>
+	"Group.hpp"
+	"IControl.hpp"
+	"IObject.hpp"
+	<cmath>
+	<fstream>
+	<functional>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"NewEnemy.hpp"
+	"NewTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+	<iostream>
+
+1561209450 c:\users\eric\desktop\final ver3\final ver3\startscene.hpp
+	"IScene.hpp"
+
+1561209438 c:\users\eric\desktop\final ver3\final ver3\label.hpp
+	<allegro5/allegro_font.h>
+	<allegro5/color.h>
+	<memory>
+	<string>
+	"IObject.hpp"
+
+1561209440 c:\users\eric\desktop\final ver3\final ver3\laserturret.hpp
+	"Turret.hpp"
+
+1561290537 c:\users\eric\desktop\final ver3\final ver3\newenemy.hpp
+	"Enemy.hpp"
+
+1561209444 c:\users\eric\desktop\final ver3\final ver3\newturret.hpp
+	"Turret.hpp"
+
+1561209442 c:\users\eric\desktop\final ver3\final ver3\machinegunturret.hpp
+	"Turret.hpp"
+
+1561209444 c:\users\eric\desktop\final ver3\final ver3\missileturret.hpp
+	"Turret.hpp"
+
+1561209446 c:\users\eric\desktop\final ver3\final ver3\plane.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1561209446 c:\users\eric\desktop\final ver3\final ver3\planeenemy.hpp
+	"Enemy.hpp"
+
+1561290541 c:\users\eric\desktop\final ver3\final ver3\soldierenemy.hpp
+	"Enemy.hpp"
+	"Sprite.hpp"
+	"SoldierEnemy.hpp"
+	"Enemy.hpp"
+
+1561209450 c:\users\eric\desktop\final ver3\final ver3\tankenemy.hpp
+	"Enemy.hpp"
+	"Sprite.hpp"
+
+1561209454 c:\users\eric\desktop\final ver3\final ver3\turretbutton.hpp
+	<string>
+	"ImageButton.hpp"
+	"Sprite.hpp"
+
+1561209436 source:c:\users\eric\desktop\final ver3\final ver3\icontrol.cpp
+	"IControl.hpp"
+
+1561209438 source:c:\users\eric\desktop\final ver3\final ver3\image.cpp
+	<allegro5/allegro.h>
+	<memory>
+	"IObject.hpp"
+	"Image.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561209438 source:c:\users\eric\desktop\final ver3\final ver3\imagebutton.cpp
+	<functional>
+	<memory>
+	<iostream>
+	"Collider.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"ImageButton.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561209438 source:c:\users\eric\desktop\final ver3\final ver3\iobject.cpp
+	"Point.hpp"
+	"IObject.hpp"
+
+1561209438 source:c:\users\eric\desktop\final ver3\final ver3\iscene.cpp
+	<allegro5/allegro.h>
+	"IScene.hpp"
+
+1561209438 source:c:\users\eric\desktop\final ver3\final ver3\label.cpp
+	<allegro5/allegro_font.h>
+	<memory>
+	"IObject.hpp"
+	"Label.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561209440 source:c:\users\eric\desktop\final ver3\final ver3\laserbullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"Group.hpp"
+	"LaserBullet.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561209438 c:\users\eric\desktop\final ver3\final ver3\laserbullet.hpp
+	"Bullet.hpp"
+
+1561287466 source:c:\users\eric\desktop\final ver3\final ver3\laserturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"LaserBullet.hpp"
+	"LaserTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561209440 source:c:\users\eric\desktop\final ver3\final ver3\log.cpp
+	<iostream>
+	<fstream>
+	"LOG.hpp"
+
+1561209442 source:c:\users\eric\desktop\final ver3\final ver3\losescene.cpp
+	<functional>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"LoseScene.hpp"
+	"Point.hpp"
+
+1561209442 c:\users\eric\desktop\final ver3\final ver3\losescene.hpp
+	"IScene.hpp"
+
+1561287320 source:c:\users\eric\desktop\final ver3\final ver3\machinegunturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"MachineGunTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561209442 source:c:\users\eric\desktop\final ver3\final ver3\main.cpp
+	"GameEngine.hpp"
+	"LOG.hpp"
+	"LoseScene.hpp"
+	"PlayScene.hpp"
+	"StageSelectScene.hpp"
+	"WinScene.hpp"
+	"Startscene.hpp"
+
+1561209450 c:\users\eric\desktop\final ver3\final ver3\stageselectscene.hpp
+	<allegro5/allegro_audio.h>
+	"IScene.hpp"
+
+1561209456 c:\users\eric\desktop\final ver3\final ver3\winscene.hpp
+	"IScene.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+
+1561209442 source:c:\users\eric\desktop\final ver3\final ver3\missilebullet.cpp
+	<cmath>
+	<random>
+	<string>
+	<utility>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"MissileBullet.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561209444 c:\users\eric\desktop\final ver3\final ver3\missilebullet.hpp
+	<allegro5/base.h>
+	<list>
+	"Bullet.hpp"
+
+1561287278 source:c:\users\eric\desktop\final ver3\final ver3\missileturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"MissileBullet.hpp"
+	"MissileTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561209444 source:c:\users\eric\desktop\final ver3\final ver3\newenemy.cpp
+	<string>
+	"NewEnemy.hpp"
+
+1561287314 source:c:\users\eric\desktop\final ver3\final ver3\newturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"NewTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561209446 source:c:\users\eric\desktop\final ver3\final ver3\plane.cpp
+	<allegro5/allegro.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Collider.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"Plane.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561209446 source:c:\users\eric\desktop\final ver3\final ver3\planeenemy.cpp
+	<string>
+	"PlaneEnemy.hpp"
+
+1561209448 source:c:\users\eric\desktop\final ver3\final ver3\playcscenereserved.c
+	<cmath>
+	<fstream>
+	<functional>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"NewEnemy.hpp"
+	"NewTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+
+1561209446 source:c:\users\eric\desktop\final ver3\final ver3\point.cpp
+	<cmath>
+	"Point.hpp"
+
+1561209448 source:c:\users\eric\desktop\final ver3\final ver3\resources.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<list>
+	<string>
+	<utility>
+	"Allegro5Exception.hpp"
+	"LOG.hpp"
+	"Resources.hpp"
+
+1561209448 source:c:\users\eric\desktop\final ver3\final ver3\slider.cpp
+	<algorithm>
+	<string>
+	"ImageButton.hpp"
+	"Point.hpp"
+	"Slider.hpp"
+	"Collider.hpp"
+	"Resources.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"iostream"
+
+1561209448 c:\users\eric\desktop\final ver3\final ver3\slider.hpp
+	<functional>
+	"Image.hpp"
+	"ImageButton.hpp"
+
+1561209450 source:c:\users\eric\desktop\final ver3\final ver3\soldierenemy.cpp
+	<string>
+	"SoldierEnemy.hpp"
+
+1561209450 source:c:\users\eric\desktop\final ver3\final ver3\sprite.cpp
+	<allegro5/allegro.h>
+	<memory>
+	"Image.hpp"
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561209450 source:c:\users\eric\desktop\final ver3\final ver3\stageselectscene.cpp
+	<allegro5/allegro_audio.h>
+	<functional>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+	"Slider.hpp"
+	"StageSelectScene.hpp"
+
+1561209452 source:c:\users\eric\desktop\final ver3\final ver3\startscene.cpp
+	<functional>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"StartScene.hpp"
+	"Group.hpp"
+	"Point.hpp"
+	"Image.hpp"
+
+1561289165 source:c:\users\eric\desktop\final ver3\final ver3\tankenemy.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"Point.hpp"
+	"TankEnemy.hpp"
+
+1561209452 source:c:\users\eric\desktop\final ver3\final ver3\tankenemyreserved.cpp
+	<random>
+	<string>
+	"Point.hpp"
+	"TankEnemy.hpp"
+
+1561280931 source:c:\users\eric\desktop\final ver3\final ver3\turret.cpp
+	<allegro5/color.h>
+	<allegro5/allegro_primitives.h>
+	<cmath>
+	<utility>
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Turret.hpp"
+
+1561209454 source:c:\users\eric\desktop\final ver3\final ver3\turretbutton.cpp
+	<allegro5/color.h>
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"TurretButton.hpp"
+
+1561209456 source:c:\users\eric\desktop\final ver3\final ver3\winscene.cpp
+	"WinScene.hpp"
+	"Label.hpp"
+	"AudioHelper.hpp"
+	"PlayScene.hpp"
+
+1561287929 source:c:\users\eric\desktop\final ver3\final ver3\playscene.cpp
+	<allegro5/allegro.h>
+	<cmath>
+	<fstream>
+	<functional>
+	<iostream>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	<algorithm>
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"NewEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+	"NewTurret.hpp"
+	"Army.h"
+	"Army1.h"
+	"TurretButton.hpp"
+	"LaserBullet.hpp"
+	"Point.hpp"
+
+1561209426 source:c:\users\eric\desktop\fp\final_project\allegro5exception.cpp
+	<stdexcept>
+	"Allegro5Exception.hpp"
+
+1561209426 c:\users\eric\desktop\fp\final_project\allegro5exception.hpp
+	<stdexcept>
+	<string>
+
+1561209426 source:c:\users\eric\desktop\fp\final_project\armybutton.cpp
+	<allegro5/color.h>
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"ArmyButton.h"
+
+1561209436 c:\users\eric\desktop\fp\final_project\gameengine.hpp
+	<allegro5/allegro.h>
+	<unordered_map>
+	<string>
+	"Point.hpp"
+
+1561209448 c:\users\eric\desktop\fp\final_project\point.hpp
+
+1561209438 c:\users\eric\desktop\fp\final_project\iscene.hpp
+	"Group.hpp"
+
+1561209436 c:\users\eric\desktop\fp\final_project\group.hpp
+	<list>
+	<utility>
+	"IControl.hpp"
+	"IObject.hpp"
+
+1561209436 c:\users\eric\desktop\fp\final_project\icontrol.hpp
+	<list>
+	<utility>
+
+1561209438 c:\users\eric\desktop\fp\final_project\iobject.hpp
+	<list>
+	<utility>
+	"Point.hpp"
+
+1561281516 c:\users\eric\desktop\fp\final_project\playscene.hpp
+	<list>
+	<utility>
+	<vector>
+	"IScene.hpp"
+	"Point.hpp"
+
+1561209426 c:\users\eric\desktop\fp\final_project\armybutton.h
+	<string>
+	"ImageButton.hpp"
+	"Sprite.hpp"
+
+1561209438 c:\users\eric\desktop\fp\final_project\imagebutton.hpp
+	<allegro5/bitmap.h>
+	<functional>
+	<memory>
+	<string>
+	"IControl.hpp"
+	"Image.hpp"
+
+1561209436 c:\users\eric\desktop\fp\final_project\image.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<string>
+	"IObject.hpp"
+
+1561209450 c:\users\eric\desktop\fp\final_project\sprite.hpp
+	<allegro5/color.h>
+	<string>
+	"Image.hpp"
+	"Point.hpp"
+
+1561209430 source:c:\users\eric\desktop\fp\final_project\audiohelper.cpp
+	<allegro5/allegro_audio.h>
+	<memory>
+	"AudioHelper.hpp"
+	"LOG.hpp"
+	"Resources.hpp"
+
+1561209428 c:\users\eric\desktop\fp\final_project\audiohelper.hpp
+	<allegro5/allegro_audio.h>
+	<string>
+
+1561209440 c:\users\eric\desktop\fp\final_project\log.hpp
+	<fstream>
+	<iostream>
+
+1561209448 c:\users\eric\desktop\fp\final_project\resources.hpp
+	<allegro5/bitmap.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<memory>
+	<unordered_map>
+	<string>
+
+1561209430 source:c:\users\eric\desktop\fp\final_project\bullet.cpp
+	"Bullet.hpp"
+	"Collider.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561209430 c:\users\eric\desktop\fp\final_project\bullet.hpp
+	<string>
+	"Sprite.hpp"
+
+1561209430 c:\users\eric\desktop\fp\final_project\collider.hpp
+	<allegro5/bitmap.h>
+	<memory>
+
+1561300661 c:\users\eric\desktop\fp\final_project\enemy.hpp
+	<list>
+	<vector>
+	<string>
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561209430 source:c:\users\eric\desktop\fp\final_project\collider.cpp
+	<allegro5/color.h>
+	<memory>
+	"Collider.hpp"
+	"Point.hpp"
+
+1561209430 source:c:\users\eric\desktop\fp\final_project\dirtyeffect.cpp
+	<allegro5/base.h>
+	<allegro5/color.h>
+	<random>
+	"DirtyEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+
+1561209432 c:\users\eric\desktop\fp\final_project\dirtyeffect.hpp
+	<string>
+	"Sprite.hpp"
+
+1561209432 source:c:\users\eric\desktop\fp\final_project\enemy.cpp
+	<allegro5/allegro_primitives.h>
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+
+1561209432 c:\users\eric\desktop\fp\final_project\explosioneffect.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1561300649 c:\users\eric\desktop\fp\final_project\turret.hpp
+	<allegro5/base.h>
+	<list>
+	<string>
+	"Sprite.hpp"
+
+1561209432 source:c:\users\eric\desktop\fp\final_project\enemyreserved.c
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+
+1561209432 source:c:\users\eric\desktop\fp\final_project\explosioneffect.cpp
+	<cmath>
+	<string>
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Resources.hpp"
+
+1561349594 source:c:\users\eric\desktop\fp\final_project\firebullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561349720 c:\users\eric\desktop\fp\final_project\firebullet.hpp
+	"Bullet.hpp"
+
+1561209436 source:c:\users\eric\desktop\fp\final_project\gameengine.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_ttf.h>
+	<chrono>
+	<memory>
+	<stdexcept>
+	<string>
+	<utility>
+	"Allegro5Exception.hpp"
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"LOG.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561209436 source:c:\users\eric\desktop\fp\final_project\group.cpp
+	<stdexcept>
+	<utility>
+	"Group.hpp"
+	"IControl.hpp"
+	"IObject.hpp"
+	<cmath>
+	<fstream>
+	<functional>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"NewEnemy.hpp"
+	"NewTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+	<iostream>
+
+1561209450 c:\users\eric\desktop\fp\final_project\startscene.hpp
+	"IScene.hpp"
+
+1561209438 c:\users\eric\desktop\fp\final_project\label.hpp
+	<allegro5/allegro_font.h>
+	<allegro5/color.h>
+	<memory>
+	<string>
+	"IObject.hpp"
+
+1561209440 c:\users\eric\desktop\fp\final_project\laserturret.hpp
+	"Turret.hpp"
+
+1561292012 c:\users\eric\desktop\fp\final_project\newenemy.hpp
+	"Enemy.hpp"
+
+1561209444 c:\users\eric\desktop\fp\final_project\newturret.hpp
+	"Turret.hpp"
+
+1561209442 c:\users\eric\desktop\fp\final_project\machinegunturret.hpp
+	"Turret.hpp"
+
+1561209444 c:\users\eric\desktop\fp\final_project\missileturret.hpp
+	"Turret.hpp"
+
+1561292080 c:\users\eric\desktop\fp\final_project\plane.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1561292178 c:\users\eric\desktop\fp\final_project\planeenemy.hpp
+	"Enemy.hpp"
+
+1561292214 c:\users\eric\desktop\fp\final_project\soldierenemy.hpp
+	"Enemy.hpp"
+
+1561209450 c:\users\eric\desktop\fp\final_project\tankenemy.hpp
+	"Enemy.hpp"
+	"Sprite.hpp"
+
+1561209454 c:\users\eric\desktop\fp\final_project\turretbutton.hpp
+	<string>
+	"ImageButton.hpp"
+	"Sprite.hpp"
+
+1561209436 source:c:\users\eric\desktop\fp\final_project\icontrol.cpp
+	"IControl.hpp"
+
+1561209438 source:c:\users\eric\desktop\fp\final_project\image.cpp
+	<allegro5/allegro.h>
+	<memory>
+	"IObject.hpp"
+	"Image.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561209438 source:c:\users\eric\desktop\fp\final_project\imagebutton.cpp
+	<functional>
+	<memory>
+	<iostream>
+	"Collider.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"ImageButton.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561209438 source:c:\users\eric\desktop\fp\final_project\iobject.cpp
+	"Point.hpp"
+	"IObject.hpp"
+
+1561209438 source:c:\users\eric\desktop\fp\final_project\iscene.cpp
+	<allegro5/allegro.h>
+	"IScene.hpp"
+
+1561209438 source:c:\users\eric\desktop\fp\final_project\label.cpp
+	<allegro5/allegro_font.h>
+	<memory>
+	"IObject.hpp"
+	"Label.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561209440 source:c:\users\eric\desktop\fp\final_project\laserbullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"Group.hpp"
+	"LaserBullet.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561209438 c:\users\eric\desktop\fp\final_project\laserbullet.hpp
+	"Bullet.hpp"
+
+1561350438 source:c:\users\eric\desktop\fp\final_project\laserturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"LaserBullet.hpp"
+	"LaserTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561209440 source:c:\users\eric\desktop\fp\final_project\log.cpp
+	<iostream>
+	<fstream>
+	"LOG.hpp"
+
+1561209442 source:c:\users\eric\desktop\fp\final_project\losescene.cpp
+	<functional>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"LoseScene.hpp"
+	"Point.hpp"
+
+1561209442 c:\users\eric\desktop\fp\final_project\losescene.hpp
+	"IScene.hpp"
+
+1561209442 source:c:\users\eric\desktop\fp\final_project\missilebullet.cpp
+	<cmath>
+	<random>
+	<string>
+	<utility>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"MissileBullet.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561209444 c:\users\eric\desktop\fp\final_project\missilebullet.hpp
+	<allegro5/base.h>
+	<list>
+	"Bullet.hpp"
+
+1561287314 source:c:\users\eric\desktop\fp\final_project\newturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"NewTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561209448 source:c:\users\eric\desktop\fp\final_project\playcscenereserved.c
+	<cmath>
+	<fstream>
+	<functional>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"NewEnemy.hpp"
+	"NewTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+
+1561209446 source:c:\users\eric\desktop\fp\final_project\point.cpp
+	<cmath>
+	"Point.hpp"
+
+1561209448 source:c:\users\eric\desktop\fp\final_project\resources.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<list>
+	<string>
+	<utility>
+	"Allegro5Exception.hpp"
+	"LOG.hpp"
+	"Resources.hpp"
+
+1561209448 source:c:\users\eric\desktop\fp\final_project\slider.cpp
+	<algorithm>
+	<string>
+	"ImageButton.hpp"
+	"Point.hpp"
+	"Slider.hpp"
+	"Collider.hpp"
+	"Resources.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"iostream"
+
+1561209448 c:\users\eric\desktop\fp\final_project\slider.hpp
+	<functional>
+	"Image.hpp"
+	"ImageButton.hpp"
+
+1561209450 source:c:\users\eric\desktop\fp\final_project\sprite.cpp
+	<allegro5/allegro.h>
+	<memory>
+	"Image.hpp"
+	"Point.hpp"
+	"Sprite.hpp"
+
+1561209450 source:c:\users\eric\desktop\fp\final_project\stageselectscene.cpp
+	<allegro5/allegro_audio.h>
+	<functional>
+	<memory>
+	<string>
+	"Startscene.hpp"
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+	"Slider.hpp"
+	"StageSelectScene.hpp"
+
+1561209450 c:\users\eric\desktop\fp\final_project\stageselectscene.hpp
+	<allegro5/allegro_audio.h>
+	"IScene.hpp"
+
+1561209452 source:c:\users\eric\desktop\fp\final_project\startscene.cpp
+	<functional>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"StartScene.hpp"
+	"Group.hpp"
+	"Point.hpp"
+	"Image.hpp"
+
+1561289164 source:c:\users\eric\desktop\fp\final_project\tankenemy.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"Point.hpp"
+	"TankEnemy.hpp"
+
+1561209452 source:c:\users\eric\desktop\fp\final_project\tankenemyreserved.cpp
+	<random>
+	<string>
+	"Point.hpp"
+	"TankEnemy.hpp"
+
+1561209454 source:c:\users\eric\desktop\fp\final_project\turretbutton.cpp
+	<allegro5/color.h>
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"TurretButton.hpp"
+
+1561351040 source:c:\users\eric\desktop\fp\final_project\winscene.cpp
+	"WinScene.hpp"
+	"Label.hpp"
+	"AudioHelper.hpp"
+	"PlayScene.hpp"
+
+1561209456 c:\users\eric\desktop\fp\final_project\winscene.hpp
+	"IScene.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+
+1561350456 source:c:\users\eric\desktop\fp\final_project\machinegunturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"iostream"
+	"AudioHelper.hpp"
+	"FireBullet.hpp"
+	"Group.hpp"
+	"MachineGunTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561316872 source:c:\users\eric\desktop\fp\final_project\main.cpp
+	"GameEngine.hpp"
+	"LOG.hpp"
+	"LoseScene.hpp"
+	"PlayScene.hpp"
+	"StageSelectScene.hpp"
+	"WinScene.hpp"
+	"Startscene.hpp"
+
+1561312298 source:c:\users\eric\desktop\fp\final_project\missileturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"MissileBullet.hpp"
+	"MissileTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1561291984 source:c:\users\eric\desktop\fp\final_project\newenemy.cpp
+	<string>
+	"NewEnemy.hpp"
+
+1561292104 source:c:\users\eric\desktop\fp\final_project\plane.cpp
+	<allegro5/allegro.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Collider.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"Plane.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1561292148 source:c:\users\eric\desktop\fp\final_project\planeenemy.cpp
+	<string>
+	"PlaneEnemy.hpp"
+
+1561348811 source:c:\users\eric\desktop\fp\final_project\playscene.cpp
+	<allegro5/allegro.h>
+	<cmath>
+	<fstream>
+	<functional>
+	<iostream>
+	<queue>
+	<string>
+	<memory>
+	<string>
+	<algorithm>
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"LaserTurret.hpp"
+	"MachineGunTurret.hpp"
+	"MissileTurret.hpp"
+	"Plane.hpp"
+	"PlaneEnemy.hpp"
+	"PlayScene.hpp"
+	"SoldierEnemy.hpp"
+	"NewEnemy.hpp"
+	"Sprite.hpp"
+	"TankEnemy.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+	"NewTurret.hpp"
+	"Army.h"
+	"Army1.h"
+	"TurretButton.hpp"
+	"LaserBullet.hpp"
+	"Point.hpp"
+
+1561301388 c:\users\eric\desktop\fp\final_project\army.h
+	<allegro5/base.h>
+	<list>
+	<string>
+	"Turret.hpp"
+	"Enemy.hpp"
+	"Sprite.hpp"
+
+1561302808 c:\users\eric\desktop\fp\final_project\army1.h
+	"Army.h"
+
+1561303813 source:c:\users\eric\desktop\fp\final_project\soldierenemy.cpp
+	<string>
+	"SoldierEnemy.hpp"
+
+1561349211 source:c:\users\eric\desktop\fp\final_project\turret.cpp
+	<allegro5/color.h>
+	<allegro5/allegro_primitives.h>
+	<cmath>
+	<utility>
+	<iostream>
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Turret.hpp"
+

@@ -2,7 +2,8 @@
 #include <allegro5/allegro_primitives.h>
 #include <cmath>
 #include <utility>
-
+#include <memory>
+#include <iostream>
 #include "Enemy.hpp"
 #include "GameEngine.hpp"
 #include "Group.hpp"
@@ -70,6 +71,8 @@ void Turret::Update(float deltaTime) {
 			// shoot.
 			reload = coolDown;
 			CreateBullet();
+			/*std::shared_ptr<Turret>CreateBulletPointer = std::make_shared<Turret>();
+            CreateBulletPointer->CreateBullet();*/
 		}
 	}
 }

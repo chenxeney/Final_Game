@@ -1,18 +1,13 @@
 #ifndef ARMY1_H_INCLUDED
 #define ARMY1_H_INCLUDED
-#include "Turret.hpp"
 
 #include "Army.h"
-#include "Sprite.hpp"
 
 class Army1 : public Army {
-private:
-	Sprite head;
-	float targetRotation;
+
 public:
-	Army1(int x, int y);
-	void Draw() const override;
-	void Update(float deltaTime) override;
+	Army1(std::string imgBase, std::string imgTurret, float x, float y, float radius, int price, 
+		float coolDown, float speed, float hp);
 };
-#endif // TANKENEMY_HPP
+#endif 
 

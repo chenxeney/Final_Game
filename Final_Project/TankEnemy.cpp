@@ -6,8 +6,7 @@
 #include "TankEnemy.hpp"
 
 TankEnemy::TankEnemy(int x, int y) : Enemy("play/enemy-3.png", x, y, 0, 100, -20, 50),
-head("play/enemy-3-head.png", x, y), targetRotation(0) {
-}
+head("play/enemy-3-head.png", x, y), targetRotation(0) {}
 void TankEnemy::Draw() const {
 	Enemy::Draw();
 	head.Draw();

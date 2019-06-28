@@ -8,6 +8,7 @@
 #include <memory>
 #include <string>
 #include <algorithm>
+#include <thread>
 
 #include "AudioHelper.hpp"
 #include "DirtyEffect.hpp"
@@ -50,17 +51,25 @@ const std::vector<int> PlayScene::code = { ALLEGRO_KEY_UP, ALLEGRO_KEY_UP, ALLEG
 Engine::Point PlayScene::GetClientSize() {
 	return Engine::Point(MapWidth * BlockSize, MapHeight * BlockSize);
 }
+void PlayScene::AddBackgroundThread(string background_path, int x, int y){
+    Engine::Image* background;
+	background = new Engine::Image(background_path, 0, 0);
+	AddNewObject(background);
+    return;
+}
+
+
 void PlayScene::Initialize() {
 	// TODO 5 (1/2): There's a bug in this file, which crashes the game when you win. Try to find it.
 	// TODO 5 (2/2): There's a cheat code in this file. Try to find it.
 	mapState.clear();
 	keyStrokes.clear();
 	ticks = 0;
-	lives = 10;
+	lives = 1;
 	money = 150;
 	SpeedMult = 1;
 	//
-	Engine::Image* background;
+    Engine::Image* background;
 	background = new Engine::Image("play/play3.jpg", 0, 0);
 	AddNewObject(background);
 	Engine::Image* enemytower;
@@ -153,34 +162,36 @@ void PlayScene::Draw() const {
 	}
 }
 void PlayScene::AssignArmy1(){
-    Turret *NewArmy;
-    NewArmy = new LaserTurret(W-5*BlockSize, H-3*BlockSize);
+    std::unique_ptr<int> black (new int (255));
+    Turret *NewArmy(new LaserTurret(W-5*BlockSize, H-3*BlockSize));
     NewArmy->Enabled = true;
     NewArmy->Preview = true;
     EarnMoney(-20);
-    NewArmy->Tint = al_map_rgba(255, 255, 255, 255);
+    NewArmy->Tint = al_map_rgba((*black),(*black), (*black), (*black));
     UIGroup->AddNewObject(NewArmy);
     preview = nullptr;
     return;
 }
 void PlayScene::AssignArmy2(){
+    std::unique_ptr<int> black (new int (255));
     Turret *NewArmy;
     NewArmy = new MissileTurret(W-5*BlockSize, H-3*BlockSize);
     NewArmy->Enabled = true;
     NewArmy->Preview = true;
     EarnMoney(-30);
-    NewArmy->Tint = al_map_rgba(255, 255, 255, 255);
+    NewArmy->Tint = al_map_rgba((*black),(*black), (*black), (*black));
     UIGroup->AddNewObject(NewArmy);
     preview = nullptr;
     return;
 }
 void PlayScene::AssignArmy3(){
+    std::unique_ptr<int> black (new int (255));
     Turret *NewArmy;
     NewArmy = new NewTurret(W-5*BlockSize, H-3*BlockSize);
     NewArmy->Enabled = true;
     NewArmy->Preview = true;
     EarnMoney(-50);
-    NewArmy->Tint = al_map_rgba(255, 255, 255, 255);
+    NewArmy->Tint = al_map_rgba((*black),(*black), (*black), (*black));
     UIGroup->AddNewObject(NewArmy);
     preview = nullptr;
     return;
@@ -205,19 +216,20 @@ void PlayScene::OnMouseDown3(int button, int mx, int my) {
 		AssignArmy3();
 	}
 }
-
-
 void PlayScene::OnMouseDown(int button, int mx, int my) {
 	if ((button & 1) && !imgTarget->Visible && preview) {
 		// Cancel turret construct.
 		UIGroup->RemoveObject(preview->GetObjectIterator());
 		preview = nullptr;
 	}
-	if(mx >= 1370 && mx <= 1370 + 64 && my >= 136 && my <= 136 + 64)
+	int n = [] (int mx, int my, int x, int y) { return (mx >= x && mx <= x+BlockSize && my >= y && my <= y+BlockSize);}(mx, my, 1370, 136);
+	if(n)
         PlayScene::OnMouseDown1(button, mx, my);
-    if(mx >= 1446 && mx <= 1446 + 64 && my >= 136 && my <= 136 + 64)
+    n = [] (int mx, int my, int x, int y) { return (mx >= x && mx <= x+BlockSize && my >= y && my <= y+BlockSize);}(mx, my, 1446, 136);
+    if(n)
         PlayScene::OnMouseDown2(button, mx, my);
-    if(mx >= 1522 && mx <= 1522 + 64 && my >= 136 && my <= 136 + 64)
+    n = [] (int mx, int my, int x, int y) { return (mx >= x && mx <= x+BlockSize && my >= y && my <= y+BlockSize);}(mx, my, 1522, 136);
+    if(n)
         PlayScene::OnMouseDown3(button, mx, my);
 }
 void PlayScene::OnMouseMove(int mx, int my) {
@@ -298,7 +310,6 @@ void PlayScene::OnKeyDown(int keyCode) {
 				++it;
 			}
 			EffectGroup->AddNewObject(new Plane());
-			money += 10000;
 		}
 	}
 	if (keyCode == ALLEGRO_KEY_Q) {
@@ -384,17 +395,17 @@ void PlayScene::ReadEnemyWave() {
 	}
 	fin.close();
 }
+
+
 void PlayScene::ConstructUI() {
 	// Background
 
 	//UIGroup->AddNewObject(new Engine::Image("play/sand.png", 1280, 0, 320, 832));
 	// Text
+
 	UIGroup->AddNewObject(new Engine::Label(std::string("Stage ") + std::to_string(MapId), "pirulen.ttf", 32, 1294, 0, 255, 255, 255));
 	UIGroup->AddNewObject(UIMoney = new Engine::Label(std::string("$") + std::to_string(money), "pirulen.ttf", 24, 1294, 48, 255, 255, 255));
 	UIGroup->AddNewObject(UILives = new Engine::Label(std::string("Life ") + std::to_string(lives), "pirulen.ttf", 24, 1294, 88, 255, 255, 255));
-	Turret* InitialTurret;
-	InitialTurret = new MachineGunTurret(W-3*BlockSize+20, H-8*BlockSize-30);
-	TowerGroup->AddNewObject(InitialTurret);
 	TurretButton* btn;
 	// Button 2
 	btn = new TurretButton("play/base.jpg", "play/base.jpg",
@@ -417,6 +428,9 @@ void PlayScene::ConstructUI() {
 		, 1522, 136, 50);
 	btn->SetOnClickCallback(std::bind(&PlayScene::UIBtnClicked, this, 2));
 	UIGroup->AddNewControlObject(btn);
+    Turret* InitialTurret;
+    InitialTurret = new MachineGunTurret(W - 3 * BlockSize + 20, H - 8 * BlockSize - 30);
+    TowerGroup->AddNewObject(InitialTurret);
 }
 
 void PlayScene::UIBtnClicked(int id) {
@@ -435,12 +449,11 @@ void PlayScene::UIBtnClicked(int id) {
 	else if (id == 2 && money >= MissileTurret::Price){
         std::cout << "Laser" << '\n';
 		preview = new LaserTurret(1200, 300);
-	}
-	/*if (!preview){
+	}if (!preview){
         std::cout << "No" << '\n';
 		return;
-	}*/
-	/*preview->Position = Engine::GameEngine::GetInstance().GetMousePosition();
+	}
+    preview->Position = Engine::GameEngine::GetInstance().GetMousePosition();
 	preview->Tint = al_map_rgba(255, 255, 255, 200);
 	preview->Enabled = false;
 	preview->Preview = true;

@@ -5,7 +5,6 @@
 #include "StageSelectScene.hpp"
 #include "WinScene.hpp"
 #include "Startscene.hpp"
-
 int main(int argc, char **argv) {
 	Engine::LOG::SetConfig(true);
 	Engine::GameEngine& game = Engine::GameEngine::GetInstance();

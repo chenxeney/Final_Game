@@ -11,18 +11,17 @@ class PlayScene;
 
 class Turret: public Engine::Sprite {
 protected:
-
+    int price;
+    float coolDown;
+    float reload = 0;
+    float rotateRadian = 2 * ALLEGRO_PI;
+    Sprite imgBase;
+    std::list<Turret*>::iterator lockedTurretIterator;
+    PlayScene* getPlayScene();
+    // Reference: Design Patterns - Factory Method.
+    virtual void CreateBullet() = 0;
 
 public:
-	int price;
-	float coolDown;
-	float reload = 0;
-	float rotateRadian = 2 * ALLEGRO_PI;
-	Sprite imgBase;
-	std::list<Turret*>::iterator lockedTurretIterator;
-	PlayScene* getPlayScene();
-	// Reference: Design Patterns - Factory Method.
-	virtual void CreateBullet() = 0;
     bool Enabled = true;
     bool Preview = false;
     Enemy* Target = nullptr;

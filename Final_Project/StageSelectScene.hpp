@@ -9,7 +9,6 @@ private:
 public:
 	explicit StageSelectScene() = default;
 	void Initialize() override;
-	void thread_task(int n);
 	void PlayOnClick(int stage);
 	void BGMSlideOnValueChanged(float value);
 	void SFXSlideOnValueChanged(float value);

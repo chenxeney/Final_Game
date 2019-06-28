@@ -3,11 +3,10 @@
 #include <list>
 #include <utility>
 #include <vector>
-#include <string>
 
 #include "IScene.hpp"
 #include "Point.hpp"
-using namespace std;
+
 class Turret;
 namespace Engine {
 	class Group;
@@ -24,6 +23,9 @@ private:
 		TILE_OCCUPIED,
 	};
 protected:
+	int lives;
+	int money;
+	int SpeedMult;
 	int Point;
 public:
 	static bool DebugMode;
@@ -75,14 +77,10 @@ public:
     void OnMouseDown3(int button, int mx, int my);
 	void ReadEnemyWave();
 	void ConstructUI();
-	void AddBackgroundThread(string background_path, int x, int y);
 	void UIBtnClicked(int id);
 	bool CheckSpaceValid(int x, int y);
 	bool Down;
 	std::vector<std::vector<int>> CalculateBFSDistance();
-	int money = 0;
-	int lives = 10;
-    int SpeedMult = 1;
 	// void ModifyReadMapTiles();
 };
 #endif // PLAYSCENE_HPP

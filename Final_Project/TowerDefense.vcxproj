@@ -143,7 +143,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Allegro5Exception.cpp" />
-    <ClCompile Include="ArmyButton.cpp" />
     <ClCompile Include="AudioHelper.cpp" />
     <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="Collider.cpp" />
@@ -189,7 +188,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Allegro5Exception.hpp" />
-    <ClInclude Include="ArmyButton.h" />
     <ClInclude Include="AudioHelper.hpp" />
     <ClInclude Include="Bullet.hpp" />
     <ClInclude Include="Collider.hpp" />

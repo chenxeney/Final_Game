@@ -49,8 +49,12 @@
 		<Unit filename="Allegro5Exception.hpp">
 			<Option virtualFolder="Engine Headers/" />
 		</Unit>
-		<Unit filename="Animation.cpp" />
-		<Unit filename="Animation.h" />
+		<Unit filename="Army.cpp" />
+		<Unit filename="Army.h" />
+		<Unit filename="Army1.cpp" />
+		<Unit filename="Army1.h" />
+		<Unit filename="ArmyButton.cpp" />
+		<Unit filename="ArmyButton.h" />
 		<Unit filename="AudioHelper.cpp" />
 		<Unit filename="AudioHelper.hpp" />
 		<Unit filename="Bullet.cpp" />

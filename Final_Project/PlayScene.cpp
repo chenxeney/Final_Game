@@ -65,9 +65,9 @@ void PlayScene::Initialize() {
 	mapState.clear();
 	keyStrokes.clear();
 	ticks = 0;
-	lives += 1;
-	money += 150;
-	SpeedMult += 1;
+	lives = 1;
+	money = 150;
+	SpeedMult = 1;
 	//
     Engine::Image* background;
 	background = new Engine::Image("play/play3.jpg", 0, 0);
@@ -108,8 +108,6 @@ void PlayScene::Update(float deltaTime) {
 		ticks += deltaTime;
 		if (enemyWaveData.empty()) {
 			if (EnemyGroup->GetObjects().empty()) {
-                money += 10000;
-                cout << '\n' << "AAAAAAAAAAAA" << al_get_time() << '\n';
 				Engine::GameEngine::GetInstance().ChangeScene("win");
 			}
 			continue;

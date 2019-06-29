@@ -30,7 +30,7 @@ void Enemy::OnExplode() {
 	}
 }
 Enemy::Enemy(std::string img, float x, float y, float radius, float speed, float hp, int money) :
-	Engine::Sprite(img, x, y), speed(speed), hp(hp), money(money) {
+	Engine::Sprite(img, x, y), speed(speed), hp(hp), money(money){
 	CollisionRadius = radius;
 }
 void Enemy::Hit(float damage) {
@@ -42,13 +42,14 @@ void Enemy::Hit(float damage) {
 			it->Target = nullptr;
 		for (auto& it : lockedBullets)
 			it->Target = nullptr;
+        getPlayScene()->EarnScore(score);
 		getPlayScene()->EarnMoney(money);
 		getPlayScene()->EnemyGroup->RemoveObject(objectIterator);
 		AudioHelper::PlayAudio("explosion.wav");
 	}
 }
 void Enemy::UpdatePath(const std::vector<std::vector<int>>& mapDistance) {
-	
+
 	int x = static_cast<int>(floor(Position.x / PlayScene::BlockSize));
 	int y = static_cast<int>(floor(Position.y / PlayScene::BlockSize));
 	if (x < 0 || x >= PlayScene::MapWidth || y < 0 || y >= PlayScene::MapHeight) {
@@ -76,7 +77,7 @@ void Enemy::UpdatePath(const std::vector<std::vector<int>>& mapDistance) {
 		num--;
 	}
 	path[0] = PlayScene::EndGridPoint;
-	
+
 }
 void Enemy::Update(float deltaTime) {
 	// Pre-calculate the velocity.

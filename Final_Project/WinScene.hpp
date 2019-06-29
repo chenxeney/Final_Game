@@ -11,8 +11,8 @@ public:
 	explicit WinScene() = default;
 	void Initialize() override;
 	void Update(float deltaTime) override;
-	void BackOnClick(int stage);
-	void thread_task();
+	void BackOnClickSelect(int stage);
+	void BackOnClickScoreboard();
 };
 
 #endif // WINSCENE_HPP

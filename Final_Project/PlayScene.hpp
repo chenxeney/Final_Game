@@ -47,6 +47,7 @@ public:
 	Group* ArmyGroup;
 	Engine::Label* UIMoney;
 	Engine::Label* UILives;
+	Engine::Label* UIScore;
 	Engine::Image* imgTarget;
 	Turret* preview;
 	Turret* InitialTurret;
@@ -66,6 +67,7 @@ public:
 	void Hit();
 	int GetMoney() const;
 	void EarnMoney(int money);
+	void EarnScore(int score);
 	void ReadMap();
 	void AssignArmy1();
 	void AssignArmy2();
@@ -80,9 +82,10 @@ public:
 	bool CheckSpaceValid(int x, int y);
 	bool Down;
 	std::vector<std::vector<int>> CalculateBFSDistance();
-	int money = 0;
-	int lives = 10;
-    int SpeedMult = 1;
+	int money = 150;
+	int lives = 5;
+    int SpeedMult = 5;
+    int score = 0;
 	// void ModifyReadMapTiles();
 };
 #endif // PLAYSCENE_HPP

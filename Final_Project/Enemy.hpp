@@ -19,6 +19,7 @@ public:
 	float speed;
 	float hp;
 	int money;
+	int score;
 	PlayScene* getPlayScene();
 	virtual void OnExplode();
 

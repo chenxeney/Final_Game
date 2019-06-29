@@ -3,12 +3,7 @@
 #include "AudioHelper.hpp"
 #include "PlayScene.hpp"
 #include <iostream>
-#include "thread"
-void WinScene::thread_task() {
-    /*std::this_thread::sleep_for(std::chrono::seconds(3));*/
-    std::cout << "hello thread " << std::endl;
-    return;
-}
+
 void WinScene::Initialize() {
 	ticks = 0;
 	int w = Engine::GameEngine::GetInstance().GetScreenSize().x;
@@ -21,8 +16,12 @@ void WinScene::Initialize() {
 	AddNewObject(new Engine::Label("You Win!", "pirulen.ttf", 48, halfW, halfH / 2, 255, 255, 255, 255, 0.5, 0.5));
 	AddNewObject(new Engine::Label("The difficulty is harder!", "pirulen.ttf", 48, halfW-50, halfH / 2+150, 255, 255, 255, 255, 0.5, 0.5));
 	Engine::ImageButton* btn;
+	btn = new Engine::ImageButton("win/dirt.png", "win/floor.png", halfW - 200, halfH, 400, 100);
+	btn->SetOnClickCallback(std::bind(&WinScene::BackOnClickScoreboard, this));
+	AddNewControlObject(btn);
+	AddNewObject(new Engine::Label("Ranking", "pirulen.ttf", 48, halfW, halfH + 50, 0, 0, 0, 255, 0.5, 0.5));
 	btn = new Engine::ImageButton("win/dirt.png", "win/floor.png", halfW - 200, halfH * 3 / 2 - 50, 400, 100);
-	btn->SetOnClickCallback(std::bind(&WinScene::BackOnClick, this, 2));
+	btn->SetOnClickCallback(std::bind(&WinScene::BackOnClickSelect, this, 2));
 	AddNewControlObject(btn);
 	AddNewObject(new Engine::Label("Back", "pirulen.ttf", 48, halfW, halfH * 3 / 2, 0, 0, 0, 255, 0.5, 0.5));
 	AudioHelper::PlayAudio("win.wav");
@@ -35,7 +34,11 @@ void WinScene::Update(float deltaTime) {
 		AudioHelper::PlayBGM("happy.ogg");
 	}
 }
-void WinScene::BackOnClick(int stage) {
+void WinScene::BackOnClickSelect(int stage) {
 	// Change to select scene.
 	Engine::GameEngine::GetInstance().ChangeScene("stage-select");
+}
+void WinScene::BackOnClickScoreboard() {
+	// Change to select scene.
+	Engine::GameEngine::GetInstance().ChangeScene("scoreboard");
 }

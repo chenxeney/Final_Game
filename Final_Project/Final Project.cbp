@@ -163,6 +163,8 @@
 		<Unit filename="Resources.hpp">
 			<Option virtualFolder="Engine Headers/" />
 		</Unit>
+		<Unit filename="ScoreboardScene.cpp" />
+		<Unit filename="ScoreboardScene.hpp" />
 		<Unit filename="Slider.cpp" />
 		<Unit filename="Slider.hpp" />
 		<Unit filename="SoldierEnemy.cpp" />

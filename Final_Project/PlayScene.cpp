@@ -8,8 +8,7 @@
 #include <memory>
 #include <string>
 #include <algorithm>
-#include <thread>
-
+#include <fstream>
 #include "AudioHelper.hpp"
 #include "DirtyEffect.hpp"
 #include "Enemy.hpp"
@@ -65,9 +64,10 @@ void PlayScene::Initialize() {
 	mapState.clear();
 	keyStrokes.clear();
 	ticks = 0;
-	lives = 1;
-	money = 150;
-	SpeedMult = 1;
+	lives += 1;
+	money += 150;
+	SpeedMult += 2;
+	score += 2000;
 	//
     Engine::Image* background;
 	background = new Engine::Image("play/play3.jpg", 0, 0);
@@ -108,6 +108,10 @@ void PlayScene::Update(float deltaTime) {
 		ticks += deltaTime;
 		if (enemyWaveData.empty()) {
 			if (EnemyGroup->GetObjects().empty()) {
+                fstream file;
+                file.open("scoreboard.txt", ios::app);
+                file << score << '\n';
+                file.close();
 				Engine::GameEngine::GetInstance().ChangeScene("win");
 			}
 			continue;
@@ -216,6 +220,7 @@ void PlayScene::OnMouseDown3(int button, int mx, int my) {
 		AssignArmy3();
 	}
 }
+/**lambda function**/
 void PlayScene::OnMouseDown(int button, int mx, int my) {
 	if ((button & 1) && !imgTarget->Visible && preview) {
 		// Cancel turret construct.
@@ -325,10 +330,10 @@ void PlayScene::OnKeyDown(int keyCode) {
 		AssignArmy3();
 	}
 	// TODO 2 (5/8): Make the R key to create the 4th turret.
-	else if (keyCode >= ALLEGRO_KEY_0 && keyCode <= ALLEGRO_KEY_9) {
+	/*else if (keyCode >= ALLEGRO_KEY_0 && keyCode <= ALLEGRO_KEY_9) {
 		// Hotkey for Speed up.
 		SpeedMult = keyCode - ALLEGRO_KEY_0;
-	}
+	}*/
 }
 void PlayScene::Hit() {
 	lives--;
@@ -343,6 +348,12 @@ int PlayScene::GetMoney() const {
 void PlayScene::EarnMoney(int money) {
 	this->money += money;
 	UIMoney->Text = std::string("$") + std::to_string(this->money);
+	return;
+}
+void PlayScene::EarnScore(int score) {
+	this->score += score;
+	UIScore->Text = std::string("Score ") + std::to_string(this->score);
+	return;
 }
 void PlayScene::ReadMap() {
 	std::string filename = std::string("resources/map") + std::to_string(MapId) + ".txt";
@@ -403,8 +414,9 @@ void PlayScene::ConstructUI() {
 	//UIGroup->AddNewObject(new Engine::Image("play/sand.png", 1280, 0, 320, 832));
 	// Text
 
-	UIGroup->AddNewObject(new Engine::Label(std::string("Stage ") + std::to_string(MapId), "pirulen.ttf", 32, 1294, 0, 255, 255, 255));
-	UIGroup->AddNewObject(UIMoney = new Engine::Label(std::string("$") + std::to_string(money), "pirulen.ttf", 24, 1294, 48, 255, 255, 255));
+	/*UIGroup->AddNewObject(new Engine::Label(std::string("Stage ") + std::to_string(MapId), "pirulen.ttf", 32, 1294, 0, 255, 255, 255));*/
+	UIGroup->AddNewObject(UIMoney = new Engine::Label(std::string("$") + std::to_string(money), "pirulen.ttf", 24, 1294, 0, 255, 255, 255));
+	UIGroup->AddNewObject(UIScore = new Engine::Label(std::string("Score ") + std::to_string(score), "pirulen.ttf", 24, 1294, 48, 255, 255, 255));
 	UIGroup->AddNewObject(UILives = new Engine::Label(std::string("Life ") + std::to_string(lives), "pirulen.ttf", 24, 1294, 88, 255, 255, 255));
 	TurretButton* btn;
 	// Button 2
